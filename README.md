@@ -8,8 +8,10 @@ For a full resume up-to-date resume of my work in the professional area please v
 Below is a summary of my github repos that are in a "demo" state that i beleive help demonstart my architectual and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
 
 ### Passion project (Out of date, due to family reponsiblities)
-as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I wanted to get more into understanding computer vision, but i only got as far as the static image bindings, and 
-
+as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I want to get into understanding computer vision, but for now this project is on hold due to the more important work of being a dad to young children
+ - https://github.com/BrettMoan/pyautoeios
+ - https://github.com/BrettMoan/PyReflect
+ - https://github.com/BrettMoan/pyscreeze (forked to support images with transparency) (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
@@ -34,3 +36,9 @@ the 6 repos:
 - `network-config` supports routing for networking settings.
 - `frontend-app` interacts with `backend-api`.
 - `backend-api` provides data to `reporting-analytics`.
+
+### My first Python backend API
+
+Flask applicaiton made as part of an interview process. Made this 5 years ago before I knew about `fastapi`. 
+
+- https://github.com/BrettMoan/interview
