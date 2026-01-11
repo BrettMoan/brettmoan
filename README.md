@@ -10,6 +10,11 @@ For a full resume up-to-date resume of my work in the professional area please v
 
 I use [jsonresume](https://registry.jsonresume.org) to host my full resume [**here**](https://registry.jsonresume.org/brettmoan)
 
+## Skills showcasing
+- architecture, terraform, ci/cd, analytics, cloud developement --> [Poly-repo Cloud Organizational Example](#poly-repo-cloud-organizational-example-example-of-an-opinionated-ideal-state-for-a-corporate-code-base)
+- learning from scratch, coding with no-prior experience ---> [My first python backend API](#my-first-python-backend-api)
+- passion, self-directed project ---> [Passion project - OSRS bot (Out of date)](#passion-project---osrs-bot-out-of-date)
+
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
 This serves as an opinionated example of how to practice IaaC for cloud, while seperating repos and responsibilies to respective teams. The idea being that individual teams  would be the code owners of certain repositories, and other teams could do PRs to the repos as needed. CODEOWNERS files would be implemented to control who has access to what, restricting the access for both `tags` and approvals for merges to the trunk (ie `main`) branch. Thus implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organiation
