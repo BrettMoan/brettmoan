@@ -9,17 +9,22 @@ For a full resume up-to-date resume of my work in the professional area please v
 ### [**My full resume**](https://registry.jsonresume.org/brettmoan)
 
 
-### My first Python backend API
 
-Flask applicaiton made as part of an interview process. Made this 5 years ago before I knew about `fastapi`. 
+### Passion project - OSRS bot (Out of date)
+
+As a passion project I started working on porting OSRS bots to python. The softwares goal was to automate money making and skill training in the game Old School Runescape. My personal goals for the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python).
+ - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
+ - [PyReflect](https://github.com/BrettMoan/PyReflect)
+ - [my personal fork of pyscreeze](https://github.com/BrettMoan/pyscreeze) to support images with transparency (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
+
+Eventually I also want to get into a deeper understanding of computer vision, but for now this project is on hold due to the more important work of being a dad to young children. 
+
+### My first python backend API
+
+Flask applicaiton made as part of an interview process. This serves of an example of a complete newb (me 5 year ago) making their first api. I made this 5 years ago before my time at torqata, where I learned a-lot from fellow backend developers, most importantly, the usage `fastapi` and `alembic` which are not present in this example below.
 
 - https://github.com/BrettMoan/interview
 
-### Passion project (Out of date, due to family reponsiblities)
-as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I want to get into understanding computer vision, but for now this project is on hold due to the more important work of being a dad to young children
- - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
- - [PyReflect](https://github.com/BrettMoan/PyReflect)
- - [pyscreeze](https://github.com/BrettMoan/pyscreeze) (forked to support images with transparency) (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
