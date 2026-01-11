@@ -20,12 +20,12 @@ This serves as an opinionated example of how to practice IaaC for cloud, while s
 ## Repository Roles & Relationships
 
 the 6 repos: 
-- **github-org-infra**: (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform.
-- **iam-oidc-permissions**: (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines.
-- **network-config**: (owned by infra or Network Security team) DNS, subdomains, and routing infrastructure for the organization.
-- **frontend-app**: (owned by an application/frontend team) Infrastructure and deployment for the static front-end application.
-- **backend-api**: (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services.
-- **reporting-analytics**: (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend and other sources.
+- [**github-org-infra**](https://github.com/BrettMoan/github-org-infra): (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform.
+- [**iam-oidc-permissions**](https://github.com/BrettMoan/iam-oidc-permissions): (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines.
+- [**network-config**](https://github.com/BrettMoan/network-config): (owned by infra or Network Security team) DNS, subdomains, and routing infrastructure for the organization.
+- [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application.
+- [**backend-api**](https://github.com/BrettMoan/backend-api): (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services.
+- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend and other sources.
 
 
 #### Poly-repo Cloud Diagram
