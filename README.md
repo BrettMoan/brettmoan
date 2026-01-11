@@ -9,9 +9,9 @@ Below is a summary of my github repos that are in a "demo" state that i beleive 
 
 ### Passion project (Out of date, due to family reponsiblities)
 as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I want to get into understanding computer vision, but for now this project is on hold due to the more important work of being a dad to young children
- - https://github.com/BrettMoan/pyautoeios
- - https://github.com/BrettMoan/PyReflect
- - https://github.com/BrettMoan/pyscreeze (forked to support images with transparency) (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
+ - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
+ - [PyReflect](https://github.com/BrettMoan/PyReflect)
+ - [pyscreeze](https://github.com/BrettMoan/pyscreeze) (forked to support images with transparency) (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
