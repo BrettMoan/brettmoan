@@ -2,7 +2,7 @@
 
 Hello! This page is to demonstate my technical skills to anyone interested (co-workers, friends, and potential employers).
 
-For a full resume up-to-date resume of my work in the professional area please visit (this link)[https://registry.jsonresume.org/brettmoan]
+For a full resume up-to-date resume of my work in the professional area please visit [this link](https://registry.jsonresume.org/brettmoan)
 
 
 Below is a summary of my github repos that are in a "demo" state that i beleive help demonstart my architectual and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
