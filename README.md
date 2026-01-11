@@ -7,6 +7,12 @@ For a full resume up-to-date resume of my work in the professional area please v
 
 Below is a summary of my github repos that are in a "demo" state that i beleive help demonstart my architectual and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
 
+### My first Python backend API
+
+Flask applicaiton made as part of an interview process. Made this 5 years ago before I knew about `fastapi`. 
+
+- https://github.com/BrettMoan/interview
+
 ### Passion project (Out of date, due to family reponsiblities)
 as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I want to get into understanding computer vision, but for now this project is on hold due to the more important work of being a dad to young children
  - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
@@ -20,25 +26,11 @@ This serves as an opinionated example of how to practice IaaC for cloud, while s
 ## Repository Roles & Relationships
 
 the 6 repos: 
-- [**github-org-infra**](https://github.com/BrettMoan/github-org-infra): (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform.
-- [**iam-oidc-permissions**](https://github.com/BrettMoan/iam-oidc-permissions): (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines.
-- [**network-config**](https://github.com/BrettMoan/network-config): (owned by infra or Network Security team) DNS, subdomains, and routing infrastructure for the organization.
-- [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application.
-- [**backend-api**](https://github.com/BrettMoan/backend-api): (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services.
-- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend and other sources.
+- [**github-org-infra**](https://github.com/BrettMoan/github-org-infra): (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform. Provisions and configures all other repos, controls who has access to PR.
+- [**iam-oidc-permissions**](https://github.com/BrettMoan/iam-oidc-permissions): (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines. Secures CI/CD and cloud access for all repos, this prevents feature branches from accessing unauthorized 
+- [**network-config**](https://github.com/BrettMoan/network-config): (owned by infra or Network Security team) DNS, subdomains, and routing infrastructure for the organization. Supports routing for networking settings.
+- [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application. Interacts with `backend-api`.
+- [**backend-api**](https://github.com/BrettMoan/backend-api): (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services. Provides data to `reporting-analytics`.
+- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend.
 
 
-#### Poly-repo Cloud Diagram
-
-### Flow
-- `github-org-infra` provisions and configures all other repos, controls who has access to PR.
-- `iam-oidc-permissions` secures CI/CD and cloud access for all repos, this prevents feature branches from accessing unauthorized resources.
-- `network-config` supports routing for networking settings.
-- `frontend-app` interacts with `backend-api`.
-- `backend-api` provides data to `reporting-analytics`.
-
-### My first Python backend API
-
-Flask applicaiton made as part of an interview process. Made this 5 years ago before I knew about `fastapi`. 
-
-- https://github.com/BrettMoan/interview
