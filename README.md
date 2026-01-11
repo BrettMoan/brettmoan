@@ -1,0 +1,36 @@
+# Brett Moan – Personal Showcase
+
+Hello! This page is to demonstate my technical skills to anyone interested (co-workers, friends, and potential employers).
+
+For a full resume up-to-date resume of my work in the professional area please visit (this link)[https://registry.jsonresume.org/brettmoan]
+
+
+Below is a summary of my github repos that are in a "demo" state that i beleive help demonstart my architectual and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
+
+### Passion project (Out of date, due to family reponsiblities)
+as a passion project I started working on porting some simple game automation to python. It was an effort to build `bots` for old school runescape. The goals of the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python). Eventually I wanted to get more into understanding computer vision, but i only got as far as the static image bindings, and 
+
+
+### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
+
+This serves as an opinionated example of how to practice IaaC for cloud, while seperating repos and responsibilies to respective teams. The idea being that individual teams  would be the code owners of certain repositories, and other teams could do PRs to the repos as needed. CODEOWNERS files would be implemented to control who has access to what, restricting the access for both `tags` and approvals for merges to the trunk (ie `main`) branch. Thus implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organiation
+
+## Repository Roles & Relationships
+
+the 6 repos: 
+- **github-org-infra**: (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform.
+- **iam-oidc-permissions**: (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines.
+- **network-config**: (owned by infra or Network Security team) DNS, subdomains, and routing infrastructure for the organization.
+- **frontend-app**: (owned by an application/frontend team) Infrastructure and deployment for the static front-end application.
+- **backend-api**: (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services.
+- **reporting-analytics**: (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend and other sources.
+
+
+#### Poly-repo Cloud Diagram
+
+### Flow
+- `github-org-infra` provisions and configures all other repos, controls who has access to PR.
+- `iam-oidc-permissions` secures CI/CD and cloud access for all repos, this prevents feature branches from accessing unauthorized resources.
+- `network-config` supports routing for networking settings.
+- `frontend-app` interacts with `backend-api`.
+- `backend-api` provides data to `reporting-analytics`.
