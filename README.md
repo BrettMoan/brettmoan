@@ -6,24 +6,7 @@ Below is a summary of my github repos that are in a "demo" state that i beleive 
 
 For a full resume up-to-date resume of my work in the professional area please visit: 
 
-### [**My full resume**](https://registry.jsonresume.org/brettmoan)
-
-
-
-### Passion project - OSRS bot (Out of date)
-
-As a passion project I started working on porting OSRS bots to python. The softwares goal was to automate money making and skill training in the game Old School Runescape. My personal goals for the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python).
- - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
- - [PyReflect](https://github.com/BrettMoan/PyReflect)
- - [my personal fork of pyscreeze](https://github.com/BrettMoan/pyscreeze) to support images with transparency (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
-
-Eventually I also want to get into a deeper understanding of computer vision, but for now this project is on hold due to the more important work of being a dad to young children. 
-
-### My first python backend API
-
-Flask applicaiton made as part of an interview process. This serves of an example of a complete newb (me 5 year ago) making their first api. I made this 5 years ago before my time at torqata, where I learned a-lot from fellow backend developers, most importantly, the usage `fastapi` and `alembic` which are not present in this example below.
-
-- https://github.com/BrettMoan/interview
+## [**My full resume**](https://registry.jsonresume.org/brettmoan)
 
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
@@ -41,3 +24,18 @@ the 6 repos:
 - [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend.
 
 
+
+### Passion project - OSRS bot (Out of date)
+
+As a passion project I started working on porting OSRS bots to python. The softwares goal was to automate money making and skill training in the game Old School Runescape. My personal goals for the project was I wanted to learn about manually managing memory bindings for a C library. I also wanted an exercise in porting a library from one langauage (pascal) to another (python).
+ - [pyautoeios](https://github.com/BrettMoan/pyautoeios)
+ - [PyReflect](https://github.com/BrettMoan/PyReflect)
+ - [my personal fork of pyscreeze](https://github.com/BrettMoan/pyscreeze) to support images with transparency (outdated PR [here](https://github.com/asweigart/pyscreeze/pull/57) )
+
+Eventually I also want to get into a deeper understanding of computer vision, but for now this project is on hold due to the more important work of being a dad to young children. 
+
+### My first python backend API
+
+Flask applicaiton made as part of an interview process. This serves of an example of a complete newb (me 5 year ago) making their first api. I made this 5 years ago before my time at torqata, where I learned a-lot from fellow backend developers, most importantly, the usage `fastapi` and `alembic` which are not present in this example below.
+
+- https://github.com/BrettMoan/interview
