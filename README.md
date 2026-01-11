@@ -8,6 +8,7 @@ For a full resume up-to-date resume of my work in the professional area please v
 
 ## [**My full resume**](https://registry.jsonresume.org/brettmoan)
 
+I use [jsonresume](https://registry.jsonresume.org) to host my full resume [**here**](https://registry.jsonresume.org/brettmoan)
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
