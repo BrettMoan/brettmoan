@@ -1,23 +1,21 @@
 # Brett Moan – Personal Showcase
 
-Hello! This page is to demonstate my technical skills to anyone interested (co-workers, friends, and potential employers).
+Hello! This page is to demonstrate my technical skills to anyone interested (co-workers, friends, and potential employers).
 
-Below is a summary of my github repos that are in a "demo" state that i beleive help demonstart my architectual and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
-
-For a full resume up-to-date resume of my work in the professional area please visit: 
+Below is a summary of my github repos that are in a "demo" state that I believe help demonstrate my architectural and coding skills to prospective employers.  The intent is to showcase my personal and organizational infrastructure, managed as code and designed for best practices, automation, and clarity.
 
 ## [**My full resume**](https://registry.jsonresume.org/brettmoan)
 
-I use [jsonresume](https://registry.jsonresume.org) to host my full resume [**here**](https://registry.jsonresume.org/brettmoan)
+I use [jsonresume](https://registry.jsonresume.org) to host my resume [**here**](https://registry.jsonresume.org/brettmoan)
 
 ## Skills showcasing
-- architecture, terraform, ci/cd, analytics, cloud developement --> [Poly-repo Cloud Organizational Example](#poly-repo-cloud-organizational-example-example-of-an-opinionated-ideal-state-for-a-corporate-code-base)
+- architecture, terraform, ci/cd, analytics, cloud development --> [Poly-repo Cloud Organizational Example](#poly-repo-cloud-organizational-example-example-of-an-opinionated-ideal-state-for-a-corporate-code-base)
 - learning from scratch, coding with no-prior experience ---> [My first python backend API](#my-first-python-backend-api)
 - passion, self-directed project ---> [Passion project - OSRS bot (Out of date)](#passion-project---osrs-bot-out-of-date)
 
 ### Poly-repo Cloud Organizational Example (example of an opinionated ideal state for a corporate code base)
 
-This serves as an opinionated example of how to practice IaaC for cloud, while seperating repos and responsibilies to respective teams. The idea being that individual teams  would be the code owners of certain repositories, and other teams could do PRs to the repos as needed. CODEOWNERS files would be implemented to control who has access to what, restricting the access for both `tags` and approvals for merges to the trunk (ie `main`) branch. Thus implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organiation
+This serves as an opinionated example of how to practice IaaC for cloud, while separating repos and responsibilities to respective teams. The idea being that individual teams  would be the code owners of certain repositories, and other teams could do PRs to the repos as needed. CODEOWNERS files would be implemented to control who has access to what, restricting the access for both `tags` and approvals for merges to the trunk (ie `main`) branch. Thus implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organization
 
 ## Repository Roles & Relationships
 
@@ -27,7 +25,7 @@ the 6 repos:
 - [**cloud-org-infra**](https://github.com/BrettMoan/cloud-org-infra): (owned by infra or Cloud/Network Security team) Cloud organization infrastructure, including DNS, subdomains, routing, and cloud resource management. Supports organizational controls and broader cloud resource configuration.
 - [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application. Interacts with `backend-api`.
 - [**backend-api**](https://github.com/BrettMoan/backend-api): (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services. Provides data to `reporting-analytics`.
-- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by applciation/data team) Infrastructure for reporting and analytics, consuming data from backend.
+- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by application/data team) Infrastructure for reporting and analytics, consuming data from backend.
 
 
 
