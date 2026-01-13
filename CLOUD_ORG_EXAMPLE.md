@@ -34,9 +34,7 @@ the 6 repos:
 - [**github-org-infra**](https://github.com/BrettMoan/github-org-infra): (owned by an infra & Security team) Central repo for managing the GitHub organization, repositories, teams, and settings via Terraform. Provisions and configures all other repos, controls who has access to PR.
 - [**cloud-org-infra**](https://github.com/BrettMoan/cloud-org-infra): (owned by infra or Cloud/Network Security team) Cloud organization infrastructure, including DNS, subdomains, routing, and cloud resource management. Supports organizational controls and broader cloud resource configuration.
 - [**backend-api**](https://github.com/BrettMoan/backend-api): (owned by application/backend team) Serverless backend API infrastructure, consumed by the frontend and other services. Provides data to `reporting-analytics`.
-
-TODO: 
-- [**iam-oidc-permissions**](https://github.com/BrettMoan/iam-oidc-permissions): (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines. Secures CI/CD and cloud access for all repos, this prevents feature branches from accessing unauthorized 
-- [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application. Interacts with `backend-api`.
-- [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by application/data team) Infrastructure for reporting and analytics, consuming data from backend.
+- TODO: [**iam-oidc-permissions**](https://github.com/BrettMoan/iam-oidc-permissions): (owned by Security/IAM team) Manages AWS IAM roles, policies, and OIDC trust for CI/CD pipelines. Secures CI/CD and cloud access for all repos, this prevents feature branches from accessing unauthorized 
+- TODO: [**frontend-app**](https://github.com/BrettMoan/frontend-app): (owned by an application/frontend team) Infrastructure and deployment for the static front-end application. Interacts with `backend-api`.
+- TODO: [**reporting-analytics**](https://github.com/BrettMoan/reporting-analytics): (owned by application/data team) Infrastructure for reporting and analytics, consuming data from backend.
 
