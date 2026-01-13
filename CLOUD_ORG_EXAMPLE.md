@@ -4,7 +4,7 @@ This serves as an opinionated example of how to practice IaaC for cloud, while s
 
 Individual teams  are the code owners of certain repositories, and other teams could do PRs to the repos as needed. 
 
-CODEOWNERS files are be implemented to control who has access to what. Github supports allowing PRS, while restricting the access for both approvals for merges to the trunk (ie `main`) branch and rules regarding the creation of `tags`. This combination of controls, allows implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organization.
+CODEOWNERS files are be implemented to control who has access to what. Github supports allowing PRS, while restricting the access for both approvals for merges to the trunk branch (ie `main`) and allows rules regarding the creation of `tags`. This combination of controls, allows implementing SOC2 controls for approvals/automation, while also following best practices of `inner-source` within an organization.
 
 ## Cool cool, but what is the Design/Architecture?
 
